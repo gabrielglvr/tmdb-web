@@ -1,0 +1,59 @@
+html body {
+  #root {
+    .main {
+      .details {
+        margin-top: .05rem;
+        height: 100%;
+        width: 100%;
+        padding: 2rem 0;
+        overflow-y: hidden;
+        position: relative;
+        background-color: #081c24;
+
+        .overview {
+          .title {
+            display: block;
+            margin-top: 2rem;
+          }
+
+          .text {
+            display: block;
+            margin-top: 1rem;
+          }
+        }
+
+        .backdrop-img {
+          position: absolute;
+          width: 100%;
+          top: -30rem;
+          opacity: 0.1;
+        }
+
+        .poster {
+          display: block;
+          width: 100%;
+          height: 450px;
+          padding: 1rem;
+          border-radius: 2px;
+          outline: none;
+          top: 0;
+          opacity: 1;
+          float: left;
+        }
+      }
+
+      .details-info {
+        color: #fff;
+        padding-top: 1.6rem;
+
+        .actions {
+          margin-top: 2rem;
+        }
+
+        .genres {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
