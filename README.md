@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The Movie Database Challenge
+React application for the movie database challenge 
 
-## Available Scripts
+Live in: [http://52.67.174.10](http://52.67.174.10:5000/api-docs)
 
-In the project directory, you can run:
+# Architecture
+The application is separated in components pattern.
 
-### `npm start`
+> Component patterns are best use practices and were first introduced to split the data or logic layer and the UI or presentational layer. By dividing responsibilities amongst your components, you can create more reusable, cohesive components that can be used to _compose_ complex UI’s. This is especially important when building apps to scale.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[See more](https://medium.com/teamsubchannel/react-component-patterns-e7fb75be7bb0)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+# How to Run
 
-### `npm test`
+**Requirements**
+ - Node  v.8
+ - Yarn
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## With Node
+> $ cd tmdb-web
+> $ yarn install 
+> $ yarn start
 
-### `npm run build`
+## With Docker
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> $ docker build -t tmdb/web .
+> $ docker run -d -p 80:8080 tmdb/api
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Available in http://localhost:8080
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ​ ​ Third-party​ ​ Libraries
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ - [axios](https://github.com/axios/axios)  - Promise based HTTP client for the browser and node.js
+ - [bootstrap](https://github.com/expressjs/cors) The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+ - [i18next]([https://github.com/i18next/i18next](https://github.com/i18next/i18next))  - For Internationalization
+ - [moment](https://github.com/moment/moment) - Parse, validate, manipulate, and display dates in javascript.
+ - [redux](https://github.com/reduxjs/redux) - Predictable state container for JavaScript apps
+ - [redux-thunk](https://github.com/reduxjs/redux-thunk) - A middleware for basic Redux
