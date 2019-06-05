@@ -1,7 +1,7 @@
 ## The Movie Database Challenge
 React application for the movie database challenge 
 
-Live in: [http://52.67.174.10](http://52.67.174.10:5000/api-docs)
+Live in: [http://52.67.174.10](http://52.67.174.10:5000)
 
 # Architecture
 The application is separated in components pattern.
