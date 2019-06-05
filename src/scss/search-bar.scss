@@ -1,0 +1,9 @@
+.search-bar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  input {
+    font-style: italic;
+  }
+}

@@ -1,0 +1,84 @@
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+
+    .info {
+        width: 298px;
+        height: 278px;
+        position: relative;
+        box-sizing: border-box;
+        padding: 10px 16px 16px 16px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-header {
+
+        a {
+            text-decoration: none;
+        }
+
+        .fire-logo {
+            height: 1rem;
+            width: 1rem;
+            margin-bottom: 4px;
+        }
+
+        .vote-average {
+            margin: 0 .5rem;
+        }
+    }
+
+    .movie-name {
+        color: #000;
+        font-weight: bold;
+        padding-left: 0.5rem;
+    }
+
+    p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 0;
+        width: 100%;
+        line-height: 1.2em;
+        margin: 0;
+    }
+
+    .overview {
+        word-wrap: break-word;
+        white-space: normal;
+        color: #4d4d4d;
+        font-size: 0.9em;
+        line-height: 1.2em;
+        margin-top: 30px;
+        max-height: 8rem
+    }
+
+    .custom-card {
+        display: flex;
+        margin-top: 1rem;
+    }
+    
+    .image-content img {
+        width: 185px;
+        height: 278px;
+    }
+
+    .view-more {
+        border-top: 1px solid #e3e3e3;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 16px;
+        width: 100%;
+
+        a {
+            font-size: 0.9em;
+            font-weight: 400;
+        }
+    }
+}
+

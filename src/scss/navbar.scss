@@ -1,0 +1,17 @@
+.navbar {
+    height: 8rem;
+    width: 100%;
+    background-color: #081c24;
+    max-height: 100%;
+
+    h1 {
+        font-size: 1.5rem;
+        color: #01d277;
+    }
+
+    &.content {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+}

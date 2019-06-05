@@ -1,0 +1,11 @@
+html,
+body,
+#root,
+.main {
+  width: 100%;
+  height: calc(100% - 32.3px);
+}
+
+.main {
+  border-top: 1px solid black;
+}
