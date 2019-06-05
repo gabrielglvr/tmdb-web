@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import Reducers from './reducers';
 import thunk from 'redux-thunk';
 import './scss/index.scss';
+import './i18n';
 
 const store = createStore(Reducers, applyMiddleware(thunk));
 

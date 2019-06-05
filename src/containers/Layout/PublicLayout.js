@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Nav from '../../components/NavBar/Nav';
 
 export default class PublicLayout extends Component {
     render() {
@@ -6,13 +7,12 @@ export default class PublicLayout extends Component {
         const route = this.props.route;
         
         return (
-            <div className="container">
-                <div className="row">
-                    <div className="col">
-                        <Component route={route} />
-                    </div>
+            <>
+                <Nav />
+                <div className="main">
+                    <Component route={route} />
                 </div>
-            </div>
+            </>
         )
     }
 }
